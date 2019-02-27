@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Job Application
+        </title>
+        <link  rel="stylesheet" type ="text/css" href="maincss.css">
+    </head>
+    
+    <h1>Personal Information</h1>
+<body>
+    <form id="myForm">
+        <fieldset>
+            
+            
+    First Name <span class="red_star">*</span> <br>
+    <input class="firstName" type="text" required> 
+      
+    <br>
+    Middle Name <br>
+
+    <input class="middleName" type="text">
+     <br>
+        
+    Last Name <span class="red_star">*</span> <br>
+    
+     <input class="lastName" type="text" required>       
+      <br>
+        
+    Email Address <span class="red_star">*</span> <br>
+    
+    <input class="yourEmail" type="email" required>
+     <br>
+    
+    Primary Contact Number <span class="red_star">*</span> <br>
+
+    <input class="primaryContact" type="tel" required>
+     <br>
+        
+    Sex <br>
+    <select id="sex"><option class="yourSex">Gender</option></select> <br>
+    
+    Address Line 1 <span class="red_star">*</span><br>
+    
+    <input class="addressOne" type="text" required>
+     <br>
+    
+    Address Line 2  <br>
+    
+    <input class="addressTwo" type="text" required>
+     <br>
+        
+    Zip Code <span class="red_star">*</span><br>
+    
+    <input class="zipCode" type="text" required>
+     <br>
+    
+    State <span class="red_star">*</span> <br>
+    <select id ="united_states"><option class="nameOfStates">Select your state</option></select><br>
+       
+    Previously employed by ABCD XYZ?<br>
+    <select id = "yesOrNoQuestion" type="text"><option class="yesno">Yes or No</option></select><br>
+    If yes, please provide your Employee ID.
+    <br>
+    <input class="employeeId" type="text">
+    <br>
+    
+    Are you willing to relocate?  <br>
+    <select  id="relocate" type="text"><option class="optRelocate">Yes or No</option></select>  <br>
+    Are you legally authorized to work in the United States? <span class="red_star">*</span>  <br>  
+    <select id="legal1"><option class="legalUnited"> Yes or No</option></select> <br>
+    Are you legally authorized to work in Canada? <span class="red_star">*</span> <br>
+    <select id="legal2"><option class="legalCanada">Yes or No</option></select> <br>
+    Highest Level of Education  <br> 
+    <select  id="education"><option class="educationLevel">Your Degree</option></select> <br>
+            
+    <!--This will help for uploading/choosing your resume. -->  
+            Please upload your resume below by clicking on the upload button below.<span class="red_star">*</span><br>
+           <div class="upload-btn-wrapper">
+           <button class="btn">Upload your resume</button>
+            <input type="file" name="myfile" />
+</div>
+      
+    <div class="button">   
+<!-- <a href="#" class="previous">&laquo; Previous</a> -->
+        <button class="nextButton"><a href="#" class="next">Next</a></button> </div> 
+      </fieldset>   
+        
+    
+    <footer>
+        <div id="footLast">
+            <p>&copy; 2019 Tek Dhakal</p>
+        </div>
+    </footer>
+    </form> 
+    <script src="application.js" type="text/javascript"></script>
+    </body>
+    </html>

@@ -1,0 +1,168 @@
+html, body{
+    padding:10px;
+    border: 100px;
+    font-family: serif;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+body{
+    background-color:azure;
+}
+h1{
+    color:blue;
+    text-align: left;
+    margin:10px;
+}
+
+#myForm{
+text-align:left;
+    padding-left:100px;
+  width: 100%;
+  padding: 12px 20px;
+  margin:auto;
+  box-sizing: border-box;
+    
+}
+input.firstName{
+    width:300px;
+    height:25px;   
+}
+input.middleName{
+ width:300px;
+    height:25px;   
+}
+input.lastName{
+    width:300px;
+    height:25px;
+}
+input.yourEmail{
+    width:300px;
+    height:25px;
+}
+input.primaryContact{
+    width:300px;
+    height:25px;   
+}
+select#sex{
+ width:75px;
+    height:25px;
+    font-size:13px;
+}
+input.addressOne{
+    width:390px;
+    height:25px;
+}
+input.addressTwo{
+    width:390px;
+    height:25px;
+}
+input.zipCode{
+    width:70px;
+    height:25px;
+}
+select#united_states{
+    width:130px;
+    height:25px;
+    font-size:13px;
+}
+select#yesOrNoQuestion{
+  width:90px;
+    height:25px;
+    font-size:13px;  
+}
+input.employeeId{
+    width:200px;
+    height:25px;
+}
+select#relocate{
+   width:90px;
+    height:25px;
+    font-size:13px;  
+}
+select#legal1{
+   width:90px;
+    height:25px;
+    font-size:13px;  
+}
+select#legal2{
+   width:90px;
+    height:25px;
+    font-size:13px;  
+}
+select#education{
+   width:105px;
+    height:25px;
+    font-size:13px;  
+}
+.yourSex{
+    display:none;
+}
+
+.yesno{
+    display:none;
+}
+.optRelocate{
+    display:none;
+}
+.legalUnited{
+    display:none;
+}
+.legalCanada{
+    display:none;
+}
+.educationLevel{
+    display:none;
+}
+
+button.nextButton{ 
+    background-color: #4CAF50; /* Green */
+  border:-20px;;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+div.button{
+    text-align: right;
+
+}
+a{
+    display:inline-block;
+    text-decoration: none;
+    text-align:center;
+}
+.red_star{
+    color:red;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.btn {
+  border:2px solid lightblue;
+  color:green;
+  background-color:antiquewhite;
+  padding: 4px 3px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+    border-radius: 50%;
+}
+
+#footLast{
+    text-align:center;
+    color: black;
+    font-size: 14px;
+}
